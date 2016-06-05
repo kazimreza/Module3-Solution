@@ -1,0 +1,129 @@
+/** Header **/
+#header-nav{
+    background-color: darkkhaki;
+    border-radius: 0;
+    border: 0;
+}
+
+,navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    color: #951c49;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #999;
+    margin-top: 5px;
+   
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+
+#nav-list a {
+    color: #951c49;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #e7e7e7;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+    
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+}
+section {
+    font-size: 1.25em;
+    border-style: solid;
+    border-width: 5px;
+    height: auto;
+    padding: 0 5px 0 5px;
+    background-color: gainsboro;
+    color: darkgreen;
+    border-color: #999999;
+    box-sizing: border-box;
+    margin: 5px;
+    text-align: justify
+    }
+#sectionBeef {
+    background-color: darkgreen;
+    color: aliceblue;
+}
+p {
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+#chickenHtml {
+    font-size: 6em;
+    position: relative;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes example {
+    0%   {color:red; left:0px; top:0px;}
+    25%  {color:yellow; left:500px; bottom:0px;}
+    50%  {color:blue; left:500px; top:500px;}
+    75%  {color:green; left:0px; top:500px;}
+    100% {color:red; left:0px; top:0px;}
+}
+
+.image-responsive {
+    width: 100%;
+    height: auto;
+        
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #sectionSushi {
+        background-color: darkgreen;
+        color: aliceblue
+    }
+    #sectionBeef {
+        background-color: gainsboro;
+        color: darkgreen;
+    }
+    #chickenHtml {
+        font-size: 4em;
+    }
+    @-webkit-keyframes example {
+        0%   {color:red; left:0px; top:0px;}
+        25%  {color:yellow; left:450px; bottom:0px;}
+        50%  {color:blue; left:450px; top:450px;}
+        75%  {color:green; left:0px; top:450px;}
+        100% {color:red; left:0px; top:0px;}
+    }
+}
+    
+@media (max-width: 767px) {
+    #chickenHtml {
+        font-size: 2em;
+    }
+    @-webkit-keyframes example {
+        0%   {color:red; left:0px; top:0px;}
+        25%  {color:yellow; left:240px; bottom:0px;}
+        50%  {color:blue; left:240px; top:250px;}
+        75%  {color:green; left:0px; top:250px;}
+        100% {color:red; left:0px; top:0px;}
+    }
+    
+}
+p a:hover, p a:focus{
+    text-decoration: none;
+    color: aliceblue;
+} 
+    
+    
